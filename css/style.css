@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(212, 45%, 89%);  
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+main{
+    display: grid;
+    height: 90vh;
+    place-items: center;
+}
+
+.qr-card{
+    max-width: 300px;
+    border-radius: 5%;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.qr-card > * {
+    text-align: center;
+}
+
+.qr-card img {
+    border-radius: 5%;
+}
+
+.qr-card .paragraph-1{
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+}
+
+.qr-card .paragraph-2{
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
